@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load trained Random Forest model
-model = pickle.load(open("Linear_Regression_model.pkl", "rb"))
+model = pickle.load(open("Linear_Regression_model (1).pkl", "rb"))
 
 # Streamlit app title
 st.title("Aplikasi Prediksi Harga Penutupan Crypto")
