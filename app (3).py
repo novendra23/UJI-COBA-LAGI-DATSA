@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+from sklearn.linear_model import LinearRegression
+
 # Load trained Random Forest model
 model = pickle.load(open("Linear_Regression_model (1).pkl", "rb"))
 
